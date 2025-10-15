@@ -11,5 +11,7 @@ class Settings:
     SPACY_MODEL = os.getenv("SPACY_MODEL", "en_core_web_sm")
     LLM_MODE = os.getenv("LLM_MODE", "LOCAL")  # <--- Add this line!
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+    BERT_NER_MODEL: str = "dslim/bert-base-NER"
 
 settings = Settings()
+

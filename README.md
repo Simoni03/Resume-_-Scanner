@@ -28,8 +28,14 @@ This project is a sophisticated, AI-powered resume screening application designe
     ```bash
     pip install -r requirements.txt
     ```
+    
+4.  **Install Spacy small English Model:**
+    ```bash
+    pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+    ```
 
-4.  **Configure environment variables:**
+
+5.  **Configure environment variables:**
     Create a `.env` file in the root of the project and add the following variables:
     ```
     # LLM_MODE can be "GEMINI" or "LOCAL"
@@ -49,3 +55,4 @@ This project is a sophisticated, AI-powered resume screening application designe
 2.  **Open the application in your browser.** The URL will be displayed in your terminal (usually `http://localhost:8501`).
 
 3.  **Upload a resume, enter a job description, and click "Process / Score"** to see the results.
+
